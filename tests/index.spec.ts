@@ -44,6 +44,7 @@ describe('semver comparator', () => {
 
   it('fill', () => {
     expect(comparator.gt('1')).toBe(true);
+    expect(comparator.gt('1.2')).toBe(true);
     expect(comparator.lt('1.2.3.1')).toBe(true);
     expect(comparator.eq('1.2.3.0')).toBe(true);
   });
