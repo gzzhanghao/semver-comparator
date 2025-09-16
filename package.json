@@ -1,6 +1,7 @@
 {
   "name": "semver-comparator",
   "version": "1.0.1",
+  "repository": "github:gzzhanghao/semver-comparator",
   "license": "MIT",
   "type": "module",
   "exports": {
