@@ -1,4 +1,6 @@
-import { createSemverComparator } from '../src';
+import { describe, expect, it } from 'vitest';
+
+import { createSemverComparator } from '../src/index.js';
 
 describe('semver comparator', () => {
   const comparator = createSemverComparator('1.2.3');
